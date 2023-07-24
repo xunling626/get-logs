@@ -4,7 +4,6 @@ use surf::Error;
 
 use crate::types::{Jsonrpc, LogsjsonrpData, ReturnLogs};
 
-pub mod logfile;
 pub mod types;
 
 async fn getlogs(
@@ -41,19 +40,6 @@ async fn getlogs(
         }
         Err(e) => Err(e),
     }
-    // if let Ok(res) = surf::post(&url).body_json(&logs) {
-    //     match res.recv_json::<ReturnLogs>().await {
-    //         Ok(t) => {
-    //             Ok(t)
-    //         }
-    //         Err(e) => {
-    //             println!("{:#?}", e);
-    //             Err(e)
-    //         }
-    //     }
-    // } else {
-        
-    // }
 }
 
 #[async_std::test]
