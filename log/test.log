@@ -1,0 +1,31 @@
+[File] 2023-07-24T11:48:39.175620+08:00 - INFO - get_logs - 进入getlogs方法
+[File] 2023-07-24T11:48:40.377307+08:00 - INFO - get_logs - logs address : LogsResult {
+    address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    topics: [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "0x000000000000000000000000493b733204e3ab799544cc4e73fc75707f8889e3",
+    ],
+    data: "0x00000000000000000000000000000000000000000000000002c68af0bb140000",
+    block_number: "0x10eb199",
+    transaction_hash: "0xb5ed56c6f73cb5cb7474a5f03443c98c651cbfa721c9cee196c2cc5cf4c1512b",
+    transaction_index: "0x4",
+    block_hash: "0xfa0b114767d4d9148bd95df4a7192617bf0223308b987967b57fb8bc0889f7cd",
+    log_index: "0x13",
+    removed: false,
+}
+[File] 2023-07-24T11:48:40.377434+08:00 - INFO - get_logs - logs address : LogsResult {
+    address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    topics: [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "0x000000000000000000000000493b733204e3ab799544cc4e73fc75707f8889e3",
+    ],
+    data: "0x000000000000000000000000000000000000000000000000016345785d8a0000",
+    block_number: "0x10eb199",
+    transaction_hash: "0x1178eef653958668968fc89267ef2685262062613a71c53048e797523748fb9c",
+    transaction_index: "0x72",
+    block_hash: "0xfa0b114767d4d9148bd95df4a7192617bf0223308b987967b57fb8bc0889f7cd",
+    log_index: "0x143",
+    removed: false,
+}
