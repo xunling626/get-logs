@@ -1,3 +1,4 @@
+use bigdecimal::BigDecimal;
 use serde::{Serialize, Deserialize};
 
 #[derive(Deserialize, Serialize, Debug)]
@@ -26,7 +27,7 @@ pub struct ReturnLogs {
 pub struct LogsResult{
     pub address : String,
     pub topics : Vec<String>,
-    pub data : String,
+    pub data : BigDecimal,
     #[serde(rename = "blockNumber")]
     pub block_number : String,
     #[serde(rename = "transactionHash")]
