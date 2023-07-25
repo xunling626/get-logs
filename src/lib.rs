@@ -65,4 +65,5 @@ async fn test_logs() {
         Ok(x) => println!("{:#?}", x),
         Err(e) => println!("{:#?}",e)
     }
+    
 }
