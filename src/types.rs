@@ -1,13 +1,13 @@
 use serde::{Serialize, Deserialize};
 
-#[derive(Deserialize, Serialize, Debug)]
+#[derive(Deserialize, Serialize, Debug,Clone)]
 pub struct Jsonrpc {
     pub jsonrpc: String,
     pub method: String,
     pub params: Vec<LogsjsonrpData>,
     pub id: u8,
 }
-#[derive(Deserialize, Serialize, Debug)]
+#[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct LogsjsonrpData{
     #[serde(rename = "fromBlock")]
     pub from_block : String,
@@ -16,13 +16,13 @@ pub struct LogsjsonrpData{
     pub address : Vec<String>,
     pub topics : Vec<Vec<String>>
 }
-#[derive(Deserialize, Serialize, Debug)]
+#[derive(Deserialize, Serialize, Debug,Clone)]
 pub struct ReturnLogs {
     pub jsonrpc: String,
     pub id: u8,
     pub result: Vec<LogsResult>,
 }
-#[derive(Deserialize, Serialize, Debug)]
+#[derive(Deserialize, Serialize, Debug,Clone)]
 pub struct LogsResult{
     pub address : String,
     pub topics : Vec<String>,
