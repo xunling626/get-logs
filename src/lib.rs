@@ -6,7 +6,7 @@ use crate::types::{Jsonrpc, LogsjsonrpData, ReturnLogs};
 
 pub mod types;
 
-async fn getlogs(
+pub async fn getlogs(
     url: String,
     from_bolck: String,
     to_block: String,
